@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 url = "https://1x-bet-ua.com/ru/live/Football/"
 
-driver = webdriver.Chrome()
+driver = webdriver.Chrome() #Если не работает - указать в скобках полный путь к chromedriver-Windows
 driver.get(url)
 soup = BeautifulSoup(driver.page_source, 'html.parser')
 
