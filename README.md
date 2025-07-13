@@ -1,2 +1,2 @@
-# parsing1XBET_Python
+# parsing-1XBET-Python
 Парсер 1хBet (Live).
